@@ -7,32 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DB500E756A017C561AE059A /* Pods_NaturalKorean_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DE64EB29774CB4A00078B /* Pods_NaturalKorean_Example.framework */; };
+		169997EC9A4EFD193FD2B5D9 /* Pods_NaturalKorean_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF334A92F3C8958D31C02D1C /* Pods_NaturalKorean_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		CF9D158C81A94C312EF7EBCE /* Pods_NaturalKorean_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC29E0604593DA02D9D2E04 /* Pods_NaturalKorean_Tests.framework */; };
+		AA7C636C0CF10A51A1317AAA /* Pods_NaturalKorean_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B876C07480499465FAD0E70 /* Pods_NaturalKorean_ExampleTests.framework */; };
+		CC88648C1E00E21F0059D368 /* NaturalKorean+StringExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC88648B1E00E21F0059D368 /* NaturalKorean+StringExtensionTests.swift */; };
+		CCDF8F1D1E0027D3006F21A2 /* NaturalKorean_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDF8F1C1E0027D3006F21A2 /* NaturalKorean_ExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		CCDF8F1F1E0027D3006F21A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = NaturalKorean;
+			remoteInfo = NaturalKorean_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CC29E0604593DA02D9D2E04 /* Pods_NaturalKorean_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalKorean_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41446AE85615F4914F8DEE62 /* Pods-NaturalKorean_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_Tests/Pods-NaturalKorean_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		45E6AAC7F3FD3FE656FAA377 /* Pods-NaturalKorean_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_Tests/Pods-NaturalKorean_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49ABFCF27D616F0CCADECA0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		52C57D27C885F822184B97C9 /* Pods-NaturalKorean_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_Example/Pods-NaturalKorean_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49ABFCF27D616F0CCADECA0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C8172BFC9CC8A4B0DCD2541 /* Pods-NaturalKorean_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_Example/Pods-NaturalKorean_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5B876C07480499465FAD0E70 /* Pods_NaturalKorean_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalKorean_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* NaturalKorean_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalKorean_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +39,16 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* NaturalKorean_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalKorean_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		673D49AF6F2D4C00526A3B50 /* Pods-NaturalKorean_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_Example/Pods-NaturalKorean_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9B9DE64EB29774CB4A00078B /* Pods_NaturalKorean_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalKorean_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E866ECBF27DB1ADA45826603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F5ED0FED6325E96350ED2BCA /* NaturalKorean.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NaturalKorean.podspec; path = ../NaturalKorean.podspec; sourceTree = "<group>"; };
+		76A8D22753C3C9E675CC9ADE /* Pods-NaturalKorean_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_ExampleTests/Pods-NaturalKorean_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC88648B1E00E21F0059D368 /* NaturalKorean+StringExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NaturalKorean+StringExtensionTests.swift"; sourceTree = "<group>"; };
+		CCDF8F1A1E0027D3006F21A2 /* NaturalKorean_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalKorean_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDF8F1C1E0027D3006F21A2 /* NaturalKorean_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalKorean_ExampleTests.swift; sourceTree = "<group>"; };
+		CCDF8F1E1E0027D3006F21A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF334A92F3C8958D31C02D1C /* Pods_NaturalKorean_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalKorean_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E866ECBF27DB1ADA45826603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F146DB0A9AE182D4F29BF715 /* Pods-NaturalKorean_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_ExampleTests/Pods-NaturalKorean_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5ED0FED6325E96350ED2BCA /* NaturalKorean.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NaturalKorean.podspec; path = ../NaturalKorean.podspec; sourceTree = "<group>"; };
+		F87D57E669E636D446D79D50 /* Pods-NaturalKorean_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalKorean_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalKorean_Example/Pods-NaturalKorean_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,15 +56,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DB500E756A017C561AE059A /* Pods_NaturalKorean_Example.framework in Frameworks */,
+				169997EC9A4EFD193FD2B5D9 /* Pods_NaturalKorean_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		CCDF8F171E0027D3006F21A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF9D158C81A94C312EF7EBCE /* Pods_NaturalKorean_Tests.framework in Frameworks */,
+				AA7C636C0CF10A51A1317AAA /* Pods_NaturalKorean_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,10 +74,10 @@
 		38E10217DB61767D66CA5877 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52C57D27C885F822184B97C9 /* Pods-NaturalKorean_Example.debug.xcconfig */,
-				673D49AF6F2D4C00526A3B50 /* Pods-NaturalKorean_Example.release.xcconfig */,
-				45E6AAC7F3FD3FE656FAA377 /* Pods-NaturalKorean_Tests.debug.xcconfig */,
-				41446AE85615F4914F8DEE62 /* Pods-NaturalKorean_Tests.release.xcconfig */,
+				4C8172BFC9CC8A4B0DCD2541 /* Pods-NaturalKorean_Example.debug.xcconfig */,
+				F87D57E669E636D446D79D50 /* Pods-NaturalKorean_Example.release.xcconfig */,
+				F146DB0A9AE182D4F29BF715 /* Pods-NaturalKorean_ExampleTests.debug.xcconfig */,
+				76A8D22753C3C9E675CC9ADE /* Pods-NaturalKorean_ExampleTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -85,7 +87,7 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for NaturalKorean */,
-				607FACE81AFB9204008FA782 /* Tests */,
+				CCDF8F1B1E0027D3006F21A2 /* NaturalKorean_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				38E10217DB61767D66CA5877 /* Pods */,
 				9D4FF62E32B8C49504CAEF7E /* Frameworks */,
@@ -96,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* NaturalKorean_Example.app */,
-				607FACE51AFB9204008FA782 /* NaturalKorean_Tests.xctest */,
+				CCDF8F1A1E0027D3006F21A2 /* NaturalKorean_ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,23 +125,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,10 +138,20 @@
 		9D4FF62E32B8C49504CAEF7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B9DE64EB29774CB4A00078B /* Pods_NaturalKorean_Example.framework */,
-				1CC29E0604593DA02D9D2E04 /* Pods_NaturalKorean_Tests.framework */,
+				DF334A92F3C8958D31C02D1C /* Pods_NaturalKorean_Example.framework */,
+				5B876C07480499465FAD0E70 /* Pods_NaturalKorean_ExampleTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDF8F1B1E0027D3006F21A2 /* NaturalKorean_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDF8F1C1E0027D3006F21A2 /* NaturalKorean_ExampleTests.swift */,
+				CC88648B1E00E21F0059D368 /* NaturalKorean+StringExtensionTests.swift */,
+				CCDF8F1E1E0027D3006F21A2 /* Info.plist */,
+			);
+			path = NaturalKorean_ExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,25 +177,25 @@
 			productReference = 607FACD01AFB9204008FA782 /* NaturalKorean_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* NaturalKorean_Tests */ = {
+		CCDF8F191E0027D3006F21A2 /* NaturalKorean_ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NaturalKorean_Tests" */;
+			buildConfigurationList = CCDF8F211E0027D3006F21A2 /* Build configuration list for PBXNativeTarget "NaturalKorean_ExampleTests" */;
 			buildPhases = (
-				6518B15B470A5D1D989AF6CC /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
-				99EE21826904D5D8EC81D173 /* [CP] Embed Pods Frameworks */,
-				ACB9A96AB033043B595D2E46 /* [CP] Copy Pods Resources */,
+				C8D26487312467A8D8E82C22 /* [CP] Check Pods Manifest.lock */,
+				CCDF8F161E0027D3006F21A2 /* Sources */,
+				CCDF8F171E0027D3006F21A2 /* Frameworks */,
+				CCDF8F181E0027D3006F21A2 /* Resources */,
+				013F41004EEDA60F54483313 /* [CP] Embed Pods Frameworks */,
+				56E84E32A4A99DF2B4C59760 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+				CCDF8F201E0027D3006F21A2 /* PBXTargetDependency */,
 			);
-			name = NaturalKorean_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* NaturalKorean_Tests.xctest */;
+			name = NaturalKorean_ExampleTests;
+			productName = NaturalKorean_ExampleTests;
+			productReference = CCDF8F1A1E0027D3006F21A2 /* NaturalKorean_ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,15 +204,18 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0810;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
+					CCDF8F191E0027D3006F21A2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = J2WX5LW4CC;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -236,7 +234,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* NaturalKorean_Example */,
-				607FACE41AFB9204008FA782 /* NaturalKorean_Tests */,
+				CCDF8F191E0027D3006F21A2 /* NaturalKorean_ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +250,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		CCDF8F181E0027D3006F21A2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +260,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6518B15B470A5D1D989AF6CC /* [CP] Check Pods Manifest.lock */ = {
+		013F41004EEDA60F54483313 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalKorean_ExampleTests/Pods-NaturalKorean_ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56E84E32A4A99DF2B4C59760 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalKorean_ExampleTests/Pods-NaturalKorean_ExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D26487312467A8D8E82C22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -275,36 +303,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		99EE21826904D5D8EC81D173 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalKorean_Tests/Pods-NaturalKorean_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ACB9A96AB033043B595D2E46 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NaturalKorean_Tests/Pods-NaturalKorean_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D6B6A4273B9A0A9DA3002797 /* [CP] Copy Pods Resources */ = {
@@ -364,21 +362,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		CCDF8F161E0027D3006F21A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				CC88648C1E00E21F0059D368 /* NaturalKorean+StringExtensionTests.swift in Sources */,
+				CCDF8F1D1E0027D3006F21A2 /* NaturalKorean_ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		CCDF8F201E0027D3006F21A2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* NaturalKorean_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			targetProxy = CCDF8F1F1E0027D3006F21A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,8 +414,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -439,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -460,8 +461,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -477,70 +480,91 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C57D27C885F822184B97C9 /* Pods-NaturalKorean_Example.debug.xcconfig */;
+			baseConfigurationReference = 4C8172BFC9CC8A4B0DCD2541 /* Pods-NaturalKorean_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NaturalKorean/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 673D49AF6F2D4C00526A3B50 /* Pods-NaturalKorean_Example.release.xcconfig */;
+			baseConfigurationReference = F87D57E669E636D446D79D50 /* Pods-NaturalKorean_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NaturalKorean/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		CCDF8F221E0027D3006F21A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45E6AAC7F3FD3FE656FAA377 /* Pods-NaturalKorean_Tests.debug.xcconfig */;
+			baseConfigurationReference = F146DB0A9AE182D4F29BF715 /* Pods-NaturalKorean_ExampleTests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = J2WX5LW4CC;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = NaturalKorean_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trilliwon.NaturalKorean-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalKorean_Example.app/NaturalKorean_Example";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		CCDF8F231E0027D3006F21A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41446AE85615F4914F8DEE62 /* Pods-NaturalKorean_Tests.release.xcconfig */;
+			baseConfigurationReference = 76A8D22753C3C9E675CC9ADE /* Pods-NaturalKorean_ExampleTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEVELOPMENT_TEAM = J2WX5LW4CC;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Nimble\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Quick\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/NaturalKorean\"",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = NaturalKorean_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trilliwon.NaturalKorean-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalKorean_Example.app/NaturalKorean_Example";
 			};
 			name = Release;
 		};
@@ -565,11 +589,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NaturalKorean_Tests" */ = {
+		CCDF8F211E0027D3006F21A2 /* Build configuration list for PBXNativeTarget "NaturalKorean_ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				CCDF8F221E0027D3006F21A2 /* Debug */,
+				CCDF8F231E0027D3006F21A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

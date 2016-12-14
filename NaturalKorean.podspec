@@ -8,25 +8,19 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NaturalKorean'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NaturalKorean.'
+  s.version          = '0.0.1'
+  s.summary          = '한글을 아름답게 사용하기 위한 라이브러리'
+  s.pod_target_xcconfig = {
+      'SWIFT_VERSION' => '3.0'
+  }
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/NaturalKorean'
+  s.description      = '한글을 사용할 때 **프로그래머(을)를** 같은 부자연스럽고 보기 흉한 프로그램이 아니라 적절한 한글의 조사를 붙히는 자연스러운 한글을 사용하기 위한 라이브러리'
+  s.homepage         = 'https://github.com/trilliwon/NaturalKorean'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Steve Jo' => 'trilliwon@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/NaturalKorean.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/trilliwon/NaturalKorean.git', :tag => '0.0.1' }
+  s.social_media_url = 'http://facebook.com/trilliwon'
 
   s.ios.deployment_target = '8.0'
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0810"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -49,6 +49,16 @@
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
                BuildableName = "NaturalKorean_Tests.xctest"
                BlueprintName = "NaturalKorean_Tests"
+               ReferencedContainer = "container:NaturalKorean.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CCDF8F191E0027D3006F21A2"
+               BuildableName = "NaturalKorean_ExampleTests.xctest"
+               BlueprintName = "NaturalKorean_ExampleTests"
                ReferencedContainer = "container:NaturalKorean.xcodeproj">
             </BuildableReference>
          </TestableReference>
