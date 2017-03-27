@@ -19,7 +19,7 @@ platform :ios do
 		xcov(
 			workspace: "NaturalKorean.xcworkspace",
 			scheme: "NaturalKorean",
-			exclude_targets: "Nimble.framework, NaturalKorean_Example.app, Quick.framework",
+#			exclude_targets: "Nimble.framework, NaturalKorean_Example.app, Quick.framework",
 			output_directory: "xcov_output",
 			slack_url: ENV["SLACK_URL"]
 		)
