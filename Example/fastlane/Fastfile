@@ -23,10 +23,9 @@ platform :ios do
 			output_directory: "xcov_output",
 			slack_url: ENV["SLACK_URL"]
 		)
-end
+	end
 
   after_all do |lane|
-
     slack(
       message: "Successfully deployed."
     )
