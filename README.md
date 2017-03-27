@@ -1,6 +1,6 @@
 # NaturalKorean
 
-[![CI Status](http://img.shields.io/travis/Steve Jo/NaturalKorean.svg?style=flat)](https://travis-ci.org/Steve Jo/NaturalKorean)
+[![Build Status](https://travis-ci.org/trilliwon/NaturalKorean.svg?branch=master)](https://travis-ci.org/trilliwon/NaturalKorean)
 [![Version](https://img.shields.io/cocoapods/v/NaturalKorean.svg?style=flat)](http://cocoapods.org/pods/NaturalKorean)
 [![License](https://img.shields.io/cocoapods/l/NaturalKorean.svg?style=flat)](http://cocoapods.org/pods/NaturalKorean)
 [![Platform](https://img.shields.io/cocoapods/p/NaturalKorean.svg?style=flat)](http://cocoapods.org/pods/NaturalKorean)
