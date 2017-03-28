@@ -17,8 +17,6 @@ platform :ios do
 		xcov(
 			workspace: "NaturalKorean.xcworkspace",
 			scheme: "NaturalKorean",
-			coveralls_service_name: "Travis",
-			coveralls_service_job_id: "Travis",
 			coveralls_repo_token: "ZqmBMY2aFuN0P7Yixe2AXpTREM5uqVhPr",
 			exclude_targets: "Nimble.framework, NaturalKorean_Example.app, Quick.framework",
 			output_directory: "xcov_output",
