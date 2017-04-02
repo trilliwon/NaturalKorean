@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NaturalKorean'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '한글을 아름답게 사용하기 위한 라이브러리'
   s.pod_target_xcconfig = {
       'SWIFT_VERSION' => '3.0'
