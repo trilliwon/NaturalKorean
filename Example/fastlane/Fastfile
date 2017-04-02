@@ -1,0 +1,39 @@
+fastlane_version "2.23.0"
+
+default_platform :ios
+
+platform :ios do
+  before_all do
+    ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"    
+  end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+
+	desc "Calculate test code coverage scroe and send to slack"
+	lane :report_test_coverage do
+		xcov(
+			workspace: "NaturalKorean.xcworkspace",
+			scheme: "NaturalKorean",
+			coveralls_repo_token: "ZqmBMY2aFuN0P7Yixe2AXpTREM5uqVhPr",
+			exclude_targets: "Nimble.framework, NaturalKorean_Example.app, Quick.framework",
+			output_directory: "xcov_output",
+			slack_url: ENV["SLACK_URL"]
+		)
+	end
+
+  after_all do |lane|
+    slack(
+      message: "Successfully deployed."
+    )
+  end
+
+  error do |lane, exception|
+    slack(
+      message: exception.message,
+      success: false
+    )
+  end
+end
