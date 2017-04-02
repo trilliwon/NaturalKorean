@@ -1,7 +1,5 @@
 import Foundation
 
-
-
 public enum StringType {
   case hangeul
   case english
@@ -15,7 +13,6 @@ public enum StringType {
     return StringType.unknown
   }
 }
-
 
 public struct NaturalKorean {
   
@@ -43,8 +40,6 @@ public struct NaturalKorean {
    */
   public static let engCheckList = ["A", "a", "E", "e", "F", "f", "G", "g", "H", "h", "I", "i", "J", "j", "O", "o", "R", "r", "S", "s", "U", "u", "V", "v", "X", "x", "Y", "y", "Z", "z"]
   
-  
-  
   /**
    word에 따라 "**이**" 혹은 "**가**"를 리턴
    
@@ -67,7 +62,6 @@ public struct NaturalKorean {
       return "(이)가"
     }
   }
-  
 
   /**
    word에 따라 "**은**" 혹은 "**는**"를 리턴
@@ -88,11 +82,10 @@ public struct NaturalKorean {
       return word.isNumberHasSupport ? "은" : "는"
       
     case .unknown:
-      return "(은)는"
+      return "은"
     }
   }
-  
-  
+
   /**
    word에 따라 "**을**" 혹은 "**를**"을 리턴
    
@@ -112,11 +105,10 @@ public struct NaturalKorean {
       return word.isNumberHasSupport ? "을" : "를"
       
     case .unknown:
-      return "(을)는"
+      return "를"
     }
   }
-  
-  
+
   /**
    word에 따라 "**로**" 혹은 "**으로**"를 리턴
    
@@ -136,10 +128,9 @@ public struct NaturalKorean {
       return word.isEndWithOne ? "로" : (word.isNumberHasSupport ? "으로" : "로")
       
     case .unknown:
-      return "(으)로"
+      return "으로"
     }
   }
-  
   
   /**
    word에 따라 "**아**" 혹은 "**야**"를 리턴
@@ -160,14 +151,9 @@ public struct NaturalKorean {
       return word.isNumberHasSupport ? "아" : "야"
       
     case .unknown:
-      return "(아)야"
+      return "아"
     }
   }
-  
-  public static func get_A_or_YA_with(word: String) -> String {
-    return "\(word)\(get_A_or_YA(word: word))"
-  }
-  
   
   /**
    word에 따라 "**과**" 혹은 "**와**"를 리턴
@@ -188,12 +174,8 @@ public struct NaturalKorean {
       return word.isNumberHasSupport ? "과" : "와"
       
     case .unknown:
-      return "(과)와"
+      return "와"
     }
-  }
-  
-  public static func get_WA_or_GUA_with(word: String) -> String {
-    return "\(word)\(get_WA_or_GUA(word: word))"
   }
 }
 
@@ -223,8 +205,7 @@ public extension String {
     guard let jongSungOfLastHangeul = self.jongSungOfLastHangeul else { return false }
     return (jongSungOfLastHangeul != " ")
   }
-  
-  
+
   /**
    한글 마지막 글자의 종성
    
@@ -260,7 +241,6 @@ public extension String {
     return 44032 <= last && last <= 55199
   }
   
-  
   /**
    숫자로 끝나는 string 인지 체크
    
@@ -274,8 +254,7 @@ public extension String {
     let last = lastUnicodeScalar.value
     return (48 <= last && last <= 57)
   }
-  
-  
+
   /**
    받침이 있는 숫자인지 체크
    
@@ -302,7 +281,6 @@ public extension String {
     }
   }
   
-  
   /**
    마지막 끝나는 숫자가 1인지 체크
    
@@ -316,7 +294,6 @@ public extension String {
     }
     return ("1" == String(lastUnicodeScalar))
   }
-  
   
   /**
    영어로 끝나는 string 인지 체크
@@ -332,7 +309,6 @@ public extension String {
     let last = lastUnicode.value
     return (65 <= last && last <= 90) || (97 <= last && last <= 122)
   }
-
   
   /**
    마지막 두개 character를 string으로 변환 후 반환
@@ -345,7 +321,6 @@ public extension String {
   var lastTwoCharString: String {
     return self.characters.suffix(2).map { char in return String(char) }.reduce("", +)
   }
-  
   
   /**
    마지막 character가 "**L**"로 끝나는지 체크
@@ -360,8 +335,7 @@ public extension String {
     let last = lastUnicode.value
     return (last == 76 || last == 108)
   }
-  
-  
+
   /**
    영어에서 ...ing, ...le, ...me 는 한글로 발음할 때 받침이 된다.
    ...ing, ...le, ...me 인지 체크
@@ -380,7 +354,6 @@ public extension String {
     }
   }
 
-  
   enum EnglishHangeulSupport: String {
     case NG = "NG"
     case LE = "LE"
@@ -393,12 +366,3 @@ public extension String {
     case LD = "LD"
   }
 }
-
-
-
-
-
-
-
-
-
