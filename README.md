@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/NaturalKorean.svg?style=flat)](http://cocoapods.org/pods/NaturalKorean)
 [![License](https://img.shields.io/cocoapods/l/NaturalKorean.svg?style=flat)](http://cocoapods.org/pods/NaturalKorean)
 [![Platform](https://img.shields.io/cocoapods/p/NaturalKorean.svg?style=flat)](http://cocoapods.org/pods/NaturalKorean)
-
+[![Coverage Status](https://coveralls.io/repos/github/trilliwon/NaturalKorean/badge.svg)](https://coveralls.io/github/trilliwon/NaturalKorean)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
