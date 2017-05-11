@@ -10,4 +10,6 @@ before_install:
         - gem install fastlane --no-ri --no-rdoc --no-document
           #- pod install --project-directory=Example
 script: travis/script.sh
-after_success: travis/after_success_script.sh
+after_success: 
+ - travis/after_success_script.sh
+ - bash <(curl -s https://codecov.io/bash)

@@ -1,0 +1,87 @@
+/Users/won/trilliwon/ifAction/ifAction/ifAction.swift:
+    1|       |import Foundation
+    2|       |
+    3|       |extension Optional {
+    4|       |
+    5|      2|	func ifSome( _ closure: (Wrapped) -> Void) {
+    6|      2|		switch self {
+    7|      1|		case .some(let wrapped): return closure(wrapped)
+    8|      1|		case .none: break
+    9|      2|		}
+   10|      2|	}
+   11|       |
+   12|       |	@discardableResult
+   13|      2|	func ifNone( _ closure: () -> Void) -> Optional {
+   14|      2|		switch self {
+   15|      1|		case .some: return self
+   16|      1|		case .none(): closure(); return self
+   17|      2|		}
+   18|      2|	}
+   19|       |}
+   20|       |
+   21|       |extension Bool {
+   22|       |
+   23|      1|	func ifTrue( _ closure: @autoclosure () -> Void) {
+   24|      1|		if self { closure() }
+   25|      1|	}
+   26|       |
+   27|      1|	func ifFalse( _ closure: @autoclosure () -> Void) {
+   28|      1|		if !self { closure() }
+   29|      1|	}
+   30|       |}
+
+/Users/won/trilliwon/ifAction/ifActionTests/ifActionTests.swift:
+    1|       |//
+    2|       |//  ifActionTests.swift
+    3|       |//  ifActionTests
+    4|       |//
+    5|       |//  Created by Won on 10/05/2017.
+    6|       |//  Copyright © 2017 Won. All rights reserved.
+    7|       |//
+    8|       |
+    9|       |import XCTest
+   10|       |@testable import ifAction
+   11|       |
+   12|       |class ifActionTests: XCTestCase {
+   13|       |
+   14|      1|	func testIfSomeWhenOptionalHasValue() {
+   15|      1|		let name: String? = "Steve"
+   16|      1|		var nameSome = ""
+   17|      1|		name.ifSome { nameSome = $0 }
+   18|      1|		XCTAssertEqual(nameSome, "Steve")
+   19|      1|	}
+   20|       |
+   21|      1|	func testIfSomeWhenOptionalHasNoValue() {
+   22|      1|		let name: String? = nil
+   23|      1|		var nameSome = ""
+   24|      0|		name.ifSome { nameSome = $0 }
+   25|      1|		XCTAssertEqual(nameSome, "")
+   26|      1|	}
+   27|       |
+   28|      1|	func testIfNoneWhenOptionalHasValue() {
+   29|      1|		let name: String? = "Steve"
+   30|      1|		var nameSome = ""
+   31|      0|		name.ifNone { nameSome = "none" }
+   32|      1|		XCTAssertEqual(nameSome, "")
+   33|      1|	}
+   34|       |
+   35|      1|	func testIfNoneWhenOptionalHasNoValue() {
+   36|      1|		let name: String? = nil
+   37|      1|		var nameSome = ""
+   38|      1|		name.ifNone { nameSome = "nil" }
+   39|      1|		XCTAssertEqual(nameSome, "nil")
+   40|      1|	}
+   41|       |
+   42|      1|	func testIfTrue() {
+   43|      1|		var isEnable = true
+   44|      1|		isEnable.ifTrue ( isEnable = !isEnable )
+   45|      1|		XCTAssertFalse(isEnable)
+   46|      1|	}
+   47|       |
+   48|      1|	func testIfFalse() {
+   49|      1|		var isEnable = false
+   50|      1|		isEnable.ifFalse ( isEnable = !isEnable )
+   51|      1|		XCTAssertTrue(isEnable)
+   52|      1|	}
+   53|       |}
+

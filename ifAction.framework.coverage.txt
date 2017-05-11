@@ -1,0 +1,32 @@
+/Users/won/trilliwon/ifAction/ifAction/ifAction.swift:
+    1|       |import Foundation
+    2|       |
+    3|       |extension Optional {
+    4|       |
+    5|      0|	func ifSome( _ closure: (Wrapped) -> Void) {
+    6|      0|		switch self {
+    7|      0|		case .some(let wrapped): return closure(wrapped)
+    8|      0|		case .none: break
+    9|      0|		}
+   10|      0|	}
+   11|       |
+   12|       |	@discardableResult
+   13|      0|	func ifNone( _ closure: () -> Void) -> Optional {
+   14|      0|		switch self {
+   15|      0|		case .some: return self
+   16|      0|		case .none(): closure(); return self
+   17|      0|		}
+   18|      0|	}
+   19|       |}
+   20|       |
+   21|       |extension Bool {
+   22|       |
+   23|      0|	func ifTrue( _ closure: @autoclosure () -> Void) {
+   24|      0|		if self { closure() }
+   25|      0|	}
+   26|       |
+   27|      0|	func ifFalse( _ closure: @autoclosure () -> Void) {
+   28|      0|		if !self { closure() }
+   29|      0|	}
+   30|       |}
+
