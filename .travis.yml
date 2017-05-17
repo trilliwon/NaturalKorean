@@ -1,15 +1,6 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
+language: swift
+osx_image: xcode8.3
 
-osx_image: xcode8.2
-language: objective-c
-podfile: Example/Podfile
-before_install:
-        - gem install xcov --no-ri --no-rdoc --no-document
-        - gem install fastlane --no-ri --no-rdoc --no-document
-          #- pod install --project-directory=Example
-script: travis/script.sh
-after_success: 
- - travis/after_success_script.sh
- - bash <(curl -s https://codecov.io/bash)
+script: 
+  - xcodebuild test -project NaturalKorean.xcodeproj -scheme NaturalKorean -destination 'platform=iOS Simulator,name=iPhone 7' 
+after_success: bash <(curl -s https://codecov.io/bash) -J 'NaturalKorean'

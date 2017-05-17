@@ -1,5 +1,0 @@
-scheme "NaturalKorean-Example"
-
-open_report true
-
-clean true

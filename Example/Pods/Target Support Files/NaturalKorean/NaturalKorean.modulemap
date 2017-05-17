@@ -1,6 +1,0 @@
-framework module NaturalKorean {
-  umbrella header "NaturalKorean-umbrella.h"
-
-  export *
-  module * { export * }
-}
