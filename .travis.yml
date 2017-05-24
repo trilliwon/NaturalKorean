@@ -1,6 +1,9 @@
 language: swift
 osx_image: xcode8.3
+script: travis/travis.sh
 
-script: 
-  - xcodebuild test -project NaturalKorean.xcodeproj -scheme NaturalKorean -destination 'platform=iOS Simulator,name=iPhone 7' 
-after_success: bash <(curl -s https://codecov.io/bash) -J 'NaturalKorean'
+before_install:
+  - gem install xcpretty
+after_success:
+  - travis/travis_after_success.sh
+  - bash <(curl -s https://codecov.io/bash) -J 'NaturalKorean'
