@@ -7,3 +7,6 @@ before_install:
 after_success:
   - travis/travis_after_success.sh
   - bash <(curl -s https://codecov.io/bash) -J 'NaturalKorean'
+  
+after_failure:
+  - travis/travis_after_failure.sh
