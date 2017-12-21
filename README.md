@@ -158,7 +158,7 @@ pod "NaturalKorean"
 
 ## Author
 
-Steve Jo, trilliwon@gmail.com
+Won, trilliwon@gmail.com
 
 ## License
 
